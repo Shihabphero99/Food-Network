@@ -1,0 +1,30 @@
+.span1{color: goldenrod;}
+
+h1{font-size: 50px;}
+
+body{font-family: 'Uchen', serif;}
+
+.common{width: 50%;
+    margin-left: 20px;
+    padding-left: 20px
+   
+    
+       }
+
+       .common img{width:80%;
+        height: 400px;
+        width: 600px;
+    }
+.flexible{display: flex;
+         margin-bottom: 150px;}
+
+.button{background-image: linear-gradient(red,green);
+         border-radius: 20px;
+         padding: 5px 10px;
+         margin: 5px;
+         color: whitesmoke;}
+
+  .sec1{background-image:url(top-banner.png);
+        background-repeat:no-repeat;
+       ; 
+         }       
