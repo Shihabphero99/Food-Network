@@ -1,30 +1,83 @@
-.span1{color: goldenrod;}
-
-h1{font-size: 50px;}
-
 body{font-family: 'Uchen', serif;}
+h1{font-size: 50px;
 
-.common{width: 50%;
-    margin-left: 20px;
-    padding-left: 20px
-   
-    
-       }
+}
 
-       .common img{width:80%;
-        height: 400px;
-        width: 600px;
-    }
-.flexible{display: flex;
-         margin-bottom: 150px;}
 
-.button{background-image: linear-gradient(red,green);
-         border-radius: 20px;
-         padding: 5px 10px;
-         margin: 5px;
-         color: whitesmoke;}
+.color{color: gold;
+      background-color: none;
+}
 
-  .sec1{background-image:url(top-banner.png);
-        background-repeat:no-repeat;
-       ; 
-         }       
+   .flexible{display: flex;
+      margin-bottom: 100px;
+        }
+
+   .half-width{ width: 50%;
+      margin-left: 20px;
+      padding-left: 20px;}
+
+   .half-width img{width:80%;
+   margin-top: 50px;
+   border-radius: 10px;
+  }
+
+   .href{color: black;
+          
+      background-image: linear-gradient(blue,skyblue );
+          border-radius: 5px;
+         padding: 5px;
+          text-decoration: none;
+          font-weight: 700;
+          
+         }
+         .sec1{background-image: url(images/top-banner.png);
+                background-repeat: no-repeat;}
+           
+          .sec2{background-image: url(Frame\ 58.jpg);
+                    background-repeat: no-repeat;
+                    background-position: right;
+                    height: 500px;}      
+
+           
+           
+
+           
+           .color{background-image: linear-gradient(green,skyblue);
+                  color: black;
+                  text-decoration: none;
+                  border-radius: 5px;
+                  padding: 10px;
+                   height: 30px;
+                   width: 100px;
+                  font-weight: 700;}
+        
+            
+           .common{
+                
+                   border: 5px solid rgb(122, 42, 42);
+                   border-radius: 10px;
+                   box-shadow:5px 5px 5px rgb(124, 16, 16);
+                   margin: 10px 10px 10px 10px;
+                   background-color: white;
+                   text-align: center;}   
+                   
+                 .text{text-align: center;}  
+             .sec-3{background-image: url(images/exp-bg.png);
+                       background-repeat: no-repeat;
+                       background-position: left;
+                     } 
+                       
+
+               .resize{height: 400px;
+                      width: 400px;
+                      margin: 20px;
+                      border-radius: 20px;}  
+                      
+            .foot{width: 80%;
+                   margin-left: 50px;}
+                  
+              footer{background-color: antiquewhite;
+                     width: 80%;
+                     margin-left: 70px;
+                    border-radius: 15px;
+                   text-align: center;}     
